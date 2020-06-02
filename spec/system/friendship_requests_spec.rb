@@ -25,7 +25,7 @@ RSpec.describe 'friendship request funcionality', type: :system do
     visit('/friendships')
     click_link 'accept friendship'
     expect(page).to have_content('friendship accepted')
-  end  
+  end
 
   it('should decline the invitation request') do
     Friendship.create(inviter: User.first, invitee: User.last, status: false)

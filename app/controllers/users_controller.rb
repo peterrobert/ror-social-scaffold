@@ -15,11 +15,11 @@ class UsersController < ApplicationController
     friendship.inviter = current_user
     friendship.invitee = User.find(params[:id])
     friendship.status = false
-    if friendship.save
-      flash[:notice] = "Friendship request sent"
-    else
-      flash[:notice] = "There was an error sending the friendship request"
-    end
+    flash[:notice] = if friendship.save
+                       'Friendship request sent'
+                     else
+                       'There was an error sending the friendship request'
+                     end
     redirect_to users_path
   end
 end
