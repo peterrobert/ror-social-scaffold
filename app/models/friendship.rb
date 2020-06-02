@@ -5,5 +5,5 @@ class Friendship < ApplicationRecord
   def accept_friendship
     self.status = true
     self.save
-  end 
+  end
 end
