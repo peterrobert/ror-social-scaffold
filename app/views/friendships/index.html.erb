@@ -1,0 +1,6 @@
+
+<% @friendships.each do |friendship| %>
+
+<span> <%= friendship.inviter.name %> has sent you a friend request </span> <%= link_to "accept friendship", accept_friendship_path(friendship) %> 
+<br>  
+<% end %>

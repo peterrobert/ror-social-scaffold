@@ -19,4 +19,8 @@ class User < ApplicationRecord
   def friends
     incoming_friends + outgoing_friends
   end
+
+  def pending_friendships
+     incoming_friendships.select { |i| i.status == false }
+  end
 end
