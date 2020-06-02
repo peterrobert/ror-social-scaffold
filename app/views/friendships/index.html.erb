@@ -1,6 +1,8 @@
 
 <% @friendships.each do |friendship| %>
 
-<span> <%= friendship.inviter.name %> has sent you a friend request </span> <%= link_to "accept friendship", accept_friendship_path(friendship) %> 
+<span> <%= friendship.inviter.name %> has sent you a friend request </span>
+<%= link_to "accept friendship", accept_friendship_path(friendship) %>
+<%= link_to "decline friendship", friendship_path(friendship), method: :delete %> 
 <br>  
 <% end %>
