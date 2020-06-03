@@ -26,7 +26,9 @@ class FriendshipsController < ApplicationController
   end
 
   def acceptance
-    Friendship.find(params[:id]).accept_friendship
+    friendship = Friendship.find(params[:id])
+    reverse_friendship = Friendship.create(inviter: friendship.invitee, invitee: friendship.inviter, status: true)
+    friendship.accept_friendship
     flash[:notice] = 'friendship accepted'
 
     redirect_to friendships_path
