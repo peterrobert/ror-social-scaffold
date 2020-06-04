@@ -17,4 +17,25 @@ class User < ApplicationRecord
   def pending_friendships
     Friendship.where(invitee: self).select { |i| i.status == false }
   end
+
+  def friendships_sent
+    Friendship.where(inviter: self).select { |i| i.status == false }
+  end
+
+  def request_user_list
+    users_list = []
+    friendships_sent.each do |i| 
+      users_list << User.where(id: i.invitee.id)
+    end
+    users_list
+  end
+
+  def pending_user_list
+    users_list = []
+    pending_friendships.each do |i| 
+      users_list << User.where(id: i.inviter.id)
+    end
+    users_list
+  end
+
 end
