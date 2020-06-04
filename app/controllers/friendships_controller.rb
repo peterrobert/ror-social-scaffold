@@ -27,7 +27,7 @@ class FriendshipsController < ApplicationController
 
   def acceptance
     friendship = Friendship.find(params[:id])
-    reverse_friendship = Friendship.create(inviter: friendship.invitee, invitee: friendship.inviter, status: true)
+    Friendship.create(inviter: friendship.invitee, invitee: friendship.inviter, status: true)
     friendship.accept_friendship
     flash[:notice] = 'friendship accepted'
 
