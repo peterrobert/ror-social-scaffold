@@ -9,20 +9,20 @@ RSpec.describe User, type: :model do
     Friendship.create(inviter: peter, invitee: john, status: false)
   end
 
-  it 'should return friendship requests sent' do
-    expect(User.first.outgoing_friendships.count).to eql(2)
+  it 'should return pending friendship sent' do
+    expect(User.first.friendships_sent.count).to eql(1)
   end
 
   it 'should return friendship requests recieved' do
-    expect(User.find_by(name: 'ivan').incoming_friendships.count).to eql(1)
+    expect(User.find_by(name: 'john').pending_friendships.count).to eql(1)
   end
 
   it 'should return users who were sent friendship requests' do
-    expect(User.first.outgoing_friends.count).to eql(2)
+    expect(User.first.request_user_list.count).to eql(1)
   end
 
   it 'should return users who have sent friendship requests to the user' do
-    expect(User.find_by(name: 'ivan').incoming_friends.count).to eql(1)
+    expect(User.find_by(name: 'john').pending_user_list.count).to eql(1)
   end
 
   it 'should return all friends' do
