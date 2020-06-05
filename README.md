@@ -1,6 +1,6 @@
-# Scaffold for social media app with Ruby on Rails
+# Social media app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> This is the last project in the Ruby on Rails section of the Microverse Full-Stack development program. We've had to apply everything we've learned throughout the section to get it done. We've implemented our own models, controllers, views and relationships with other models. Also, we've implemented user authentication for our controllers, and we've had to refactor how friendships work at the database level, and change models accordingly.
 
 ## Built With
 
@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-TBA
+[Link to live version](https://boiling-escarpment-07008.herokuapp.com/)
 
 
 ## Getting Started
@@ -61,25 +61,22 @@ Open `http://localhost:3000/` in your browser.
 
 TBA
 
-## Authors
+## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
-TBA
+👤 **Peter Robert**
+
+- Github: [@peterrobert](https://github.com/peterrobert)
+- Twitter: [@ptahwambui93](https://twitter.com/Ptahwambui93)
+- Linkedin: [Peter Robert Ndungu](https://www.linkedin.com/in/peter-rob-ndungu/)
+
+👤 **Ivan Diaz**
+
+- Github: [@ivanid22](https://github.com/ivanid22)
+- Twitter: [@ivanid22](https://twitter.com/ivanid22)
+- Linkedin: [Ivan Diaz](www.linkedin.com/in/ivanid22)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](issues/).
 
 ## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
-
-## 📝 License
-
-TBA
-
