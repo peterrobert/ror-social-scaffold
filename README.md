@@ -1,7 +1,6 @@
-# Project: Social Media Website
+# Social media app with Ruby on Rails
 
-> This is the last project in the Ruby on Rails section of the Microverse Full-Stack development program. 
-We've had to apply everything we've learned throughout the section to get it done. We've implemented our own models, controllers, views and relationships with other models. Also, we've implemented user authentication for our controllers, and we've had to refactor how friendships work at the database level, and change models accordingly.
+> This is the last project in the Ruby on Rails section of the Microverse Full-Stack development program. We've had to apply everything we've learned throughout the section to get it done. We've implemented our own models, controllers, views and relationships with other models. Also, we've implemented user authentication for our controllers, and we've had to refactor how friendships work at the database level, and change models accordingly.
 
 ## Built With
 
@@ -10,8 +9,7 @@ We've had to apply everything we've learned throughout the section to get it don
 
 ## Live Demo
 
-[Link to live version](https://boiling-escarpment-07008.herokuapp.com)
-
+[Link to live version](https://boiling-escarpment-07008.herokuapp.com/)
 
 ## Getting Started
 
@@ -56,6 +54,9 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
+## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
+
+👤 **Peter Robert**
 
 ## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
@@ -75,4 +76,3 @@ Open `http://localhost:3000/` in your browser.
 
 Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](issues/).
 
-## Show your support
