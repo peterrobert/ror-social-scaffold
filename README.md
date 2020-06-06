@@ -11,7 +11,6 @@
 
 [Link to live version](https://boiling-escarpment-07008.herokuapp.com/)
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -55,11 +54,9 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
+## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
-### Deployment
-
-TBA
+👤 **Peter Robert**
 
 ## Authors  ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
@@ -79,4 +76,3 @@ TBA
 
 Contributions, issues and feature requests are welcome!. Feel free to check the [issues page](issues/).
 
-## Show your support
